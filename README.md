@@ -213,25 +213,21 @@ Workflow:
 
 ### Application Interface
 
-Insert screenshot here.
+<img width="1470" height="956" alt="application_interface" src="https://github.com/user-attachments/assets/a43a1223-7037-443d-88e1-bdfe9abdbe98" />
 
 ---
 
 ### Dependency Analysis
 
-Insert screenshot here.
+<img width="1470" height="956" alt="dependency_analysis" src="https://github.com/user-attachments/assets/ab42beb8-a5f5-470e-9102-a98045d17c37" />
 
 ---
 
 ### Graph Visualization
 
-Insert screenshot here.
+<img width="1470" height="956" alt="database_graph" src="https://github.com/user-attachments/assets/bb773bb0-e069-4843-b24b-8570d9026442" />
 
----
-
-### Vulnerability Analysis Query
-
-Insert screenshot here.
+<img width="1470" height="956" alt="database_graph_zoomed" src="https://github.com/user-attachments/assets/1e38bda3-7e49-425f-996e-7b5fd4d31e7b" />
 
 ---
 
@@ -306,11 +302,11 @@ pip install -r requirements.txt
 Create a `.env` file:
 
 ```env
-NEO4J_URI=
+COGNODB_URI=your-cognodb-uri
 
-NEO4J_USERNAME=
+COGNODB_USERNAME=your-cognodb-username
 
-NEO4J_PASSWORD=
+COGNODB_PASSWORD=your-cognodb-password
 ```
 
 ---
@@ -356,9 +352,3 @@ If the database becomes unavailable, the user receives a descriptive error messa
 - Neo4j Driver
 - Cypher
 - CognoDB
-
----
-
-## 👤 Author
-
-Your Name
