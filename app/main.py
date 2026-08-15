@@ -31,7 +31,7 @@ for label, count in counts.items():
 st.sidebar.markdown(f"### Relationships: {get_relationship_count()}")
 
 # Main Page
-st.title("🔍 Dependency Impact Explorer")
+st.title("Dependency Impact Explorer")
 st.info(
     """
     This application explores package dependencies using a graph database.
@@ -42,7 +42,7 @@ st.info(
 )
 
 packages = get_all_packages()
-selected_package = st.selectbox("📦 Select a package",packages,)
+selected_package = st.selectbox("Select a package:",packages,)
 
 if st.button("Analyze"):
     try:
