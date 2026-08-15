@@ -24,6 +24,23 @@ This project demonstrates how graph databases can be used to perform dependency 
 
 ---
 
+## 🕸️ Why a Graph Database?
+
+Software dependencies are naturally connected.
+
+A single repository can rely on several packages, and those packages may depend on many other packages. When a vulnerability is discovered or a package is updated, the impact can spread across multiple repositories through a chain of dependencies.
+
+While a traditional relational database can store this information, exploring these relationships becomes increasingly difficult as the dependency chain grows. Answering questions such as *"Which repositories are affected by this package?"* or *"Which repositories are exposed to this vulnerability?"* often requires recursive queries and multiple joins.
+
+A graph database provides a more intuitive way to model these connections because relationships are treated as first-class entities rather than being stored in separate lookup tables.
+
+In this project, the dependency network is represented as a connected graph:
+
+```text
+Developer → Repository → Package → Package → Vulnerability
+```
+---
+
 ## ✨ Features
 
 - Dependency impact analysis
