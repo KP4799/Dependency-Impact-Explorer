@@ -67,19 +67,17 @@ This project demonstrates how graph databases can be used to perform dependency 
 ## 📊 Graph Diagram
 
 ```text
-Developer
-    │
-    ▼
-Repository
-    │
-    ▼
-Package
-   ╱ ╲
-  ▼   ▼
+     Developer
+         │
+         ▼
+     Repository
+         │
+         ▼
+      Package
+     ╱       ╲
+    ▼         ▼
 Technology   Vulnerability
 ```
-
-Replace this section with a screenshot of the graph visualization from CognoDB if available.
 
 ---
 
