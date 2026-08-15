@@ -228,13 +228,13 @@ Workflow:
 
 ### Application Interface
 
-<img width="1470" height="956" alt="application_interface" src="https://github.com/user-attachments/assets/a43a1223-7037-443d-88e1-bdfe9abdbe98" />
+<img width="1470" height="956" alt="Screenshot 2026-08-15 at 6 02 14 PM" src="https://github.com/user-attachments/assets/af5c7415-8c10-45ef-8fde-bcb078f778f5" />
 
 ---
 
 ### Dependency Analysis
 
-<img width="1470" height="956" alt="dependency_analysis" src="https://github.com/user-attachments/assets/ab42beb8-a5f5-470e-9102-a98045d17c37" />
+<img width="1470" height="956" alt="Screenshot 2026-08-15 at 6 02 32 PM" src="https://github.com/user-attachments/assets/f909487f-78f6-4b9b-9451-a51a3c46b05f" />
 
 ---
 
